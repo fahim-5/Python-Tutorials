@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #e8f5e9; /* Light green background */
+    color: #2e7d32; /* Dark green text */
 }
 
 header {
-    background: #333;
+    background: #2e7d32; /* Dark green */
     padding: 15px 20px;
 }
 
@@ -48,7 +48,7 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url('https://source.unsplash.com/1600x900/?nature,technology') no-repeat center center/cover;
+    background: url('https://source.unsplash.com/1600x900/?nature,forest') no-repeat center center/cover;
     color: white;
 }
 
@@ -67,7 +67,7 @@ nav {
 }
 
 .cta-button {
-    background: #ff6b6b;
+    background: #43a047; /* Medium green */
     color: white;
     padding: 12px 24px;
     text-decoration: none;
@@ -77,11 +77,11 @@ nav {
 }
 
 .cta-button:hover {
-    background: #ff3b3b;
+    background: #2e7d32; /* Darker green on hover */
 }
 
 footer {
-    background: #222;
+    background: #1b5e20; /* Darkest green */
     color: white;
     text-align: center;
     padding: 15px;
